@@ -17,8 +17,10 @@ public class OpenBrowserAndSelect {
 		
         System.setProperty(
                 "webdriver.chrome.driver",
-                "C:\\Users\\user\\Desktop\\chromedriver_win32\\chromedriver.exe");
+                "OpenBrowserAndSelect\\chromedriver.exe");
       
+       // "webdriver.chrome.driver",
+       // "C:\\Users\\user\\Desktop\\chromedriver_win32\\chromedriver.exe");
         
     		ChromeOptions options = new ChromeOptions();
     		options.addArguments("--remote-allow-origins=*");
